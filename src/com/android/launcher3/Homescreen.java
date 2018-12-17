@@ -32,7 +32,7 @@ import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.SwitchPreference;
 import android.view.MenuItem;
 
-import com.android.internal.util.aospextended.AEXUtils;
+import com.android.internal.util.custom.RevoUtils;
 
 public class Homescreen extends SettingsActivity implements PreferenceFragment.OnPreferenceStartFragmentCallback {
 
@@ -83,7 +83,7 @@ public class Homescreen extends SettingsActivity implements PreferenceFragment.O
             SwitchPreference showSearchBar = (SwitchPreference)
                     findPreference(KEY_SHOW_SEARCHBAR);
 
-            if (!AEXUtils.isPackageInstalled(mContext, LauncherTab.SEARCH_PACKAGE)) {
+            if (!RevoUtils.isPackageInstalled(mContext, LauncherTab.SEARCH_PACKAGE)) {
                 getPreferenceScreen().removePreference(feedIntegration);
                 getPreferenceScreen().removePreference(showSearchBar);
             }
