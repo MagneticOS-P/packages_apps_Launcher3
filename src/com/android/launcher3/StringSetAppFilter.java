@@ -11,9 +11,9 @@ public class StringSetAppFilter implements AppFilter {
     private final HashSet<String> mWidgetBlackList = new HashSet<>();
 
     public StringSetAppFilter(Context context) {
-        mBlackList.add("com.google.android.googlequicksearchbox");
         mBlackList.add("com.google.android.apps.wallpaper");
         mBlackList.add("com.google.android.launcher");
+        mBlackList.add("com.google.android.as");
         mWidgetBlackList.add("com.google.android.apps.wallpaper");
         mWidgetBlackList.add("com.google.android.launcher");
     }

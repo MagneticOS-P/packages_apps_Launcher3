@@ -16,8 +16,10 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- General -->
     <string name="settings_title">Ajustes</string>
+
     <!-- Categories -->
     <string name="home_category_title">Pantalla de inicio</string>
     <string name="home_category_summary">Configura el panel de Google Now y más</string>
@@ -27,23 +29,71 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_drawer_category_summary">Personaliza el cajón de aplicaciones</string>
     <string name="gestures_category_title">Gestos</string>
     <string name="gestures_category_summary">Mejora tu experiencia</string>
+
     <!-- Sub categories -->
     <string name="home_grid_title">Diseño de cuadrícula</string>
     <string name="icon_layout_title">Diseño de iconos</string>
+
     <!-- Icon packs -->
     <string name="icon_pack">Paquete de iconos</string>
     <string name="icon_pack_summary">Cambia la apariencia de tus iconos</string>
+
+    <!-- Google Feed -->
+    <string name="google_feed_title">Mostrar app google now</string>
+    <string name="google_feed_summary">A la izquierda de la pantalla principal</string>
+
+    <!-- Hidden apps -->
+    <string name="hide_app">Ocultar apps</string>
+    <string name="hide_app_sum">Ocultar apps del cajón</string>
+    <string name="hide_app_selected">&#160;seleccionadas</string>
+    <string name="hidden_app">Todas las apps</string>
+    <string name="hide_selected">Esconder aplicaciones seleccionada(s)</string>
+    <string name="more">Más</string>
+    <string name="reset_hidden_apps">Reiniciar todo</string>
+    <string name="reset_hidden_apps_done">Ocultar apps no está disponible</string>
+
     <!-- Icon shape -->
+    <string name="icon_shape_override_label_custom">Tipo de icono</string>
+    <string name="icon_shape_rounded_square">Rounded square</string>
+
     <!-- Icon mask -->
+    <string name="legacy_icon_mask_title">Force shape mask on legacy icons</string>
+    <string name="legacy_icon_mask_summary">Could cause issue with custom icon packs, if enabled</string>
+
     <!-- Icon size -->
+    <string name="icon_size_title">Tamaño del icono</string>
+    <string name="icon_size_extra_small">Diminuto</string>
+    <string name="icon_size_small">Pequeño</string>
+    <string name="icon_size_average">Normal</string>
+    <string name="icon_size_large">Grande</string>
     <string name="icon_size_extra_large">Muy grande</string>
+
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">Limpiar todo</string>
-    <string name="pref_homescreen_dt_gestures_title">Gestos de doble toque</string>
-    <!-- Google Feed -->
+    <string name="allow_swipe_down_clearall_desc">Deslizar hacia arriba para borrar todas las apps recientes</string>
+    <string name="pref_homescreen_dt_gestures_title">Gestos doble toque</string>
+    <string name="pref_homescreen_dt_gestures_summary">Seleccionar la acción del doble toque</string>
+    <string name="pref_homescreen_dt_gestures_none">Nada</string>
+    <string name="pref_homescreen_dt_gestures_sleep">Apagar pantalla</string>
+    <string name="pref_homescreen_dt_gestures_torch">Flash</string>
+    <string name="pref_notifications_gesture_title">Gestos notificación</string>
+    <string name="pref_notifications_gesture_summary">Deslizar hacia abajo desde el escritorio para bajar la cortina de notificaciones</string>
+
     <!-- Grid -->
-    <!-- Hidden apps -->
-    <string name="hide_selected">Esconder aplicaciones seleccionada(s)</string>
+    <string name="num_default">Por defecto</string>
+    <string name="number_of_columns_title">Número de columnas</string>
+    <string name="number_of_rows_title">Número de filas</string>
+    <string name="number_of_hotseat_title">Número de iconos del dock</string>
+    <string name="state_loading">Aplicando\u2026</string>
+
     <!-- Show labels on icon -->
+    <string name="app_show_label_title">Etiquetas Apps</string>
+    <string name="desktop_show_label_summary">Mostrar etiquetas de las apps en el escritorio</string>
+    <string name="allapps_show_label_summary">Mostrar etiquetas de las apps en el cajón de apps</string>
+
     <!-- Show searchbar -->
+    <string name="show_searchbar_title">Mostrar barra de búsqueda</string>
+    <string name="show_searchbar_summary">Mostrar la barra de búsqueda en el escritorio</string>
+
+
 </resources>
